@@ -6,17 +6,6 @@
   "scripts": {
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
