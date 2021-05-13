@@ -11,7 +11,9 @@
     "test:ci": "npm test -- --coverage"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -25,6 +27,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.8"
+    "mongoose": "^5.12.8",
+    "validator": "^13.6.0"
   }
 }
